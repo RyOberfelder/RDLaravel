@@ -790,6 +790,7 @@
         },
         {
             "name": "paragonie/random_compat",
+<<<<<<< HEAD
             "version": "1.0.8",
             "source": {
                 "type": "git",
@@ -800,6 +801,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/paragonie/random_compat/zipball/7fe2420f8ad46aa08d5b317c92a148611d366d88",
                 "reference": "7fe2420f8ad46aa08d5b317c92a148611d366d88",
+=======
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "9a0ce69360aa22413a96f2bf93f61235e2c18486"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/9a0ce69360aa22413a96f2bf93f61235e2c18486",
+                "reference": "9a0ce69360aa22413a96f2bf93f61235e2c18486",
+>>>>>>> 06e39830d681b389992a526e37f96801d177ca87
                 "shasum": ""
             },
             "require": {
@@ -831,7 +844,11 @@
                 "pseudorandom",
                 "random"
             ],
+<<<<<<< HEAD
             "time": "2015-10-18 21:39:26"
+=======
+            "time": "2015-10-16 03:43:13"
+>>>>>>> 06e39830d681b389992a526e37f96801d177ca87
         },
         {
             "name": "psr/log",
@@ -2420,6 +2437,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "4.8.14",
             "source": {
                 "type": "git",
@@ -2430,6 +2448,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b4900675926860bef091644849305399b986efa2",
                 "reference": "b4900675926860bef091644849305399b986efa2",
+=======
+            "version": "4.8.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "be067d6105286b74272facefc2697038f8807b77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/be067d6105286b74272facefc2697038f8807b77",
+                "reference": "be067d6105286b74272facefc2697038f8807b77",
+>>>>>>> 06e39830d681b389992a526e37f96801d177ca87
                 "shasum": ""
             },
             "require": {
@@ -2488,7 +2518,11 @@
                 "testing",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2015-10-17 15:03:30"
+=======
+            "time": "2015-10-14 13:49:40"
+>>>>>>> 06e39830d681b389992a526e37f96801d177ca87
         },
         {
             "name": "phpunit/phpunit-mock-objects",
