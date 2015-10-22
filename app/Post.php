@@ -10,4 +10,8 @@ class Post extends Model
         'subject',
         'body'
       ];
+
+    public function user(){
+      return $this->belongsTo('App\User');
+    }
 }

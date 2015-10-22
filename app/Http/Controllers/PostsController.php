@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use App\Http\Requests;
+use App\Http\Requests\PostRequest;
 use App\Http\Controllers\Controller;
-use Request;
-
+use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
@@ -23,14 +23,24 @@ class PostsController extends Controller
 
       return view('posts.show')->with('post', $post);
     }
+    public function update($id, PostRequest $request){
+
+      $post = Post::findOrFail($id);
+      $post->update($request->all());
+
+      return redirect('posts');
+    }
     public function create(){
 
       return view('posts.create');
     }
-    public function store(){
-      $store = Request::all();
+    public function store(PostRequest $request){
 
-      Post::create($store);
+      Post::create($request->all());
       return redirect('posts');
+    }
+    public function edit($id){
+      $post = Post::findOrFail($id);
+      return view('posts.edit', compact('post'));
     }
 }
